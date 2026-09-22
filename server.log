@@ -1,0 +1,4 @@
+Initializing database...
+Real-Time SQL Server running on all interfaces at port 3000
+Database connection error: Unknown column 'studentCode' in 'field list'
+Ensure MySQL is running and .env credentials are correct.

@@ -1,0 +1,122 @@
+
+D:\AI\American_lyceum\android>if "Windows_NT" == "Windows_NT" setlocal
+
+D:\AI\American_lyceum\android>set DIRNAME=D:\AI\American_lyceum\android\ 
+
+D:\AI\American_lyceum\android>if "D:\AI\American_lyceum\android\" == "" set DIRNAME=. 
+
+D:\AI\American_lyceum\android>set APP_BASE_NAME=gradlew 
+
+D:\AI\American_lyceum\android>set APP_HOME=D:\AI\American_lyceum\android\ 
+
+D:\AI\American_lyceum\android>for %i in ("D:\AI\American_lyceum\android\") do set APP_HOME=%~fi 
+
+D:\AI\American_lyceum\android>set APP_HOME=D:\AI\American_lyceum\android\ 
+
+D:\AI\American_lyceum\android>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+D:\AI\American_lyceum\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+D:\AI\American_lyceum\android>set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot 
+
+D:\AI\American_lyceum\android>set JAVA_EXE=C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot/bin/java.exe 
+
+D:\AI\American_lyceum\android>if exist "C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot/bin/java.exe" goto execute 
+
+D:\AI\American_lyceum\android>set CLASSPATH= 
+
+D:\AI\American_lyceum\android>"C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot/bin/java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -classpath "" -jar "D:\AI\American_lyceum\android\\gradle\wrapper\gradle-wrapper.jar" assembleDebug --no-daemon --console=plain 
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-cordova-android-plugins
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Checking the license for package Android SDK Build-Tools 35 in C:\Android\Sdk\licenses
+License for package Android SDK Build-Tools 35 accepted.
+Preparing "Install Android SDK Build-Tools 35 v.35.0.0".
+"Install Android SDK Build-Tools 35 v.35.0.0" ready.
+Installing Android SDK Build-Tools 35 in C:\Android\Sdk\build-tools\35.0.0
+"Install Android SDK Build-Tools 35 v.35.0.0" complete.
+"Install Android SDK Build-Tools 35 v.35.0.0" finished.
+[=========                              ] 25%                                   
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :capacitor-android:preBuild UP-TO-DATE
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+> Task :capacitor-android:writeDebugAarMetadata
+> Task :capacitor-android:processDebugNavigationResources
+> Task :app:javaPreCompileDebug
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata
+> Task :capacitor-cordova-android-plugins:processDebugNavigationResources
+> Task :app:checkDebugAarMetadata
+> Task :app:processDebugNavigationResources
+> Task :app:generateDebugResValues
+> Task :capacitor-android:generateDebugResValues
+> Task :app:compileDebugNavigationResources
+> Task :capacitor-android:generateDebugResources
+> Task :capacitor-android:packageDebugResources
+> Task :capacitor-cordova-android-plugins:generateDebugResValues
+> Task :capacitor-cordova-android-plugins:generateDebugResources
+> Task :capacitor-cordova-android-plugins:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :capacitor-android:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :capacitor-cordova-android-plugins:extractDeepLinksDebug
+> Task :capacitor-android:compileDebugLibraryResources
+> Task :capacitor-cordova-android-plugins:compileDebugLibraryResources
+> Task :capacitor-android:parseDebugLocalResources
+> Task :capacitor-cordova-android-plugins:parseDebugLocalResources
+> Task :capacitor-android:processDebugManifest
+> Task :capacitor-cordova-android-plugins:processDebugManifest
+> Task :capacitor-android:javaPreCompileDebug
+> Task :capacitor-cordova-android-plugins:generateDebugRFile
+> Task :capacitor-android:generateDebugRFile
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :capacitor-android:compileDebugJavaWithJavac
+> Task :capacitor-android:compileDebugJavaWithJavac FAILED
+
+[Incubating] Problems report is available at: file:///D:/AI/American_lyceum/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':capacitor-android:compileDebugJavaWithJavac'.
+> Java compilation initialization error
+    error: invalid source release: 21
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3m 46s
+37 actionable tasks: 37 executed
+
+D:\AI\American_lyceum\android>if 1 EQU 0 goto mainEnd 
+
+D:\AI\American_lyceum\android>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+D:\AI\American_lyceum\android>rem the _cmd.exe /c_ return code! 
+
+D:\AI\American_lyceum\android>set EXIT_CODE=1 
+
+D:\AI\American_lyceum\android>if 1 EQU 0 set EXIT_CODE=1 
+
+D:\AI\American_lyceum\android>if not "" == "" exit 1 
+
+D:\AI\American_lyceum\android>exit /b 1 
